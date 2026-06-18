@@ -7,7 +7,7 @@
 | haystack/\_\_init\_\_.py                                                            |       12 |        0 |    100% |           |
 | haystack/components/\_\_init\_\_.py                                                 |        0 |        0 |    100% |           |
 | haystack/components/agents/\_\_init\_\_.py                                          |        5 |        0 |    100% |           |
-| haystack/components/agents/agent.py                                                 |      384 |       10 |     97% |462, 636, 689-690, 692, 838, 912, 1172-1173, 1179 |
+| haystack/components/agents/agent.py                                                 |      386 |       10 |     97% |462, 636, 689-690, 692, 838, 921, 1190-1191, 1197 |
 | haystack/components/agents/state/\_\_init\_\_.py                                    |        5 |        0 |    100% |           |
 | haystack/components/agents/state/state.py                                           |       73 |        2 |     97% |    75, 79 |
 | haystack/components/agents/state/state\_utils.py                                    |       18 |        0 |    100% |           |
@@ -39,7 +39,7 @@
 | haystack/components/converters/image/image\_utils.py                                |      123 |        5 |     96% |78-82, 104, 109-110 |
 | haystack/components/converters/image/pdf\_to\_image.py                              |       46 |        3 |     93% |   137-141 |
 | haystack/components/converters/json.py                                              |       87 |       11 |     87% |220-221, 223-226, 230-231, 243-244, 275-277 |
-| haystack/components/converters/markdown.py                                          |       44 |        7 |     84% |88, 101-103, 107-113 |
+| haystack/components/converters/markdown.py                                          |       69 |       10 |     86% |102, 115-117, 122-128, 146, 167-172 |
 | haystack/components/converters/msg.py                                               |       75 |        5 |     93% |91, 165-167, 179 |
 | haystack/components/converters/multi\_file\_converter.py                            |       50 |        0 |    100% |           |
 | haystack/components/converters/openapi\_functions.py                                |      117 |       25 |     79% |86-87, 100-103, 111-112, 139, 144, 159-160, 180-187, 192-195, 231-232, 250, 254-258 |
@@ -163,7 +163,7 @@
 | haystack/components/samplers/\_\_init\_\_.py                                        |        5 |        0 |    100% |           |
 | haystack/components/samplers/top\_p.py                                              |       65 |        0 |    100% |           |
 | haystack/components/tools/\_\_init\_\_.py                                           |        5 |        0 |    100% |           |
-| haystack/components/tools/tool\_invoker.py                                          |      281 |        8 |     97% |274, 296-304, 768, 782, 799-800 |
+| haystack/components/tools/tool\_invoker.py                                          |      281 |        7 |     98% |274, 296-304, 782, 799-800 |
 | haystack/components/validators/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/components/validators/json\_schema.py                                      |       71 |        8 |     89% |23-24, 137, 139, 154, 242, 248, 252 |
 | haystack/components/websearch/\_\_init\_\_.py                                       |        5 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17850** | **1219** | **93%** |           |
+| **TOTAL**                                                                           | **17877** | **1221** | **93%** |           |
 
 
 ## Setup coverage badge
