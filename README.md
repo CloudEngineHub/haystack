@@ -31,7 +31,7 @@
 | haystack/components/converters/csv.py                                               |       88 |        4 |     95% |161-162, 184-185 |
 | haystack/components/converters/docx.py                                              |      159 |        1 |     99% |       262 |
 | haystack/components/converters/file\_to\_file\_content.py                           |       32 |        0 |    100% |           |
-| haystack/components/converters/html.py                                              |       45 |        0 |    100% |           |
+| haystack/components/converters/html.py                                              |       48 |        0 |    100% |           |
 | haystack/components/converters/image/\_\_init\_\_.py                                |        5 |        0 |    100% |           |
 | haystack/components/converters/image/document\_to\_image.py                         |       43 |        0 |    100% |           |
 | haystack/components/converters/image/file\_to\_document.py                          |       27 |        1 |     96% |        93 |
@@ -47,7 +47,7 @@
 | haystack/components/converters/pdfminer.py                                          |       68 |        0 |    100% |           |
 | haystack/components/converters/pptx.py                                              |       69 |        2 |     97% |     89-90 |
 | haystack/components/converters/pypdf.py                                             |       74 |        3 |     96% |   209-213 |
-| haystack/components/converters/tika.py                                              |       59 |        4 |     93% |36, 133-139 |
+| haystack/components/converters/tika.py                                              |       61 |        4 |     93% |37, 142-148 |
 | haystack/components/converters/txt.py                                               |       34 |        3 |     91% |     87-91 |
 | haystack/components/converters/utils.py                                             |       21 |        0 |    100% |           |
 | haystack/components/converters/xlsx.py                                              |      113 |        3 |     97% |83, 183, 185 |
@@ -175,7 +175,7 @@
 | haystack/core/component/\_\_init\_\_.py                                             |        3 |        0 |    100% |           |
 | haystack/core/component/component.py                                                |      185 |        1 |     99% |       355 |
 | haystack/core/component/sockets.py                                                  |       41 |        6 |     85% |82, 117-124, 129-130 |
-| haystack/core/component/types.py                                                    |       36 |        3 |     92% |     85-87 |
+| haystack/core/component/types.py                                                    |       42 |        3 |     93% |     87-89 |
 | haystack/core/errors.py                                                             |       76 |        9 |     88% |60-67, 127, 146, 150, 161, 165, 178, 187 |
 | haystack/core/pipeline/\_\_init\_\_.py                                              |        3 |        0 |    100% |           |
 | haystack/core/pipeline/async\_pipeline.py                                           |      171 |       48 |     72% |91-92, 97, 258-301, 313, 370-376, 389, 394, 411-413, 417-420, 440-453, 463 |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17877** | **1221** | **93%** |           |
+| **TOTAL**                                                                           | **17888** | **1221** | **93%** |           |
 
 
 ## Setup coverage badge
