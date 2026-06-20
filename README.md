@@ -12,8 +12,8 @@
 | haystack/components/agents/state/state.py                                           |       73 |        2 |     97% |    75, 79 |
 | haystack/components/agents/state/state\_utils.py                                    |       18 |        0 |    100% |           |
 | haystack/components/audio/\_\_init\_\_.py                                           |        5 |        0 |    100% |           |
-| haystack/components/audio/whisper\_local.py                                         |       66 |        6 |     91% |132, 168-171, 187 |
-| haystack/components/audio/whisper\_remote.py                                        |       43 |       13 |     70% |96, 149-164 |
+| haystack/components/audio/whisper\_local.py                                         |       68 |        6 |     91% |141, 177-180, 196 |
+| haystack/components/audio/whisper\_remote.py                                        |       45 |       13 |     71% |105, 158-173 |
 | haystack/components/builders/\_\_init\_\_.py                                        |        5 |        0 |    100% |           |
 | haystack/components/builders/answer\_builder.py                                     |       99 |        4 |     96% |269, 277, 290, 302 |
 | haystack/components/builders/chat\_prompt\_builder.py                               |      110 |        2 |     98% |  176, 263 |
@@ -21,7 +21,7 @@
 | haystack/components/caching/\_\_init\_\_.py                                         |        5 |        0 |    100% |           |
 | haystack/components/caching/cache\_checker.py                                       |       37 |        0 |    100% |           |
 | haystack/components/classifiers/\_\_init\_\_.py                                     |        5 |        0 |    100% |           |
-| haystack/components/classifiers/document\_language\_classifier.py                   |       37 |        0 |    100% |           |
+| haystack/components/classifiers/document\_language\_classifier.py                   |       39 |        0 |    100% |           |
 | haystack/components/classifiers/zero\_shot\_document\_classifier.py                 |       60 |        5 |     92% |150-152, 229, 232 |
 | haystack/components/connectors/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/components/connectors/openapi.py                                           |       24 |        0 |    100% |           |
@@ -108,7 +108,7 @@
 | haystack/components/joiners/\_\_init\_\_.py                                         |        5 |        0 |    100% |           |
 | haystack/components/joiners/answer\_joiner.py                                       |       49 |        2 |     96% |  132, 138 |
 | haystack/components/joiners/branch.py                                               |       20 |        3 |     85% |105, 116-117 |
-| haystack/components/joiners/document\_joiner.py                                     |       92 |        0 |    100% |           |
+| haystack/components/joiners/document\_joiner.py                                     |       97 |        0 |    100% |           |
 | haystack/components/joiners/list\_joiner.py                                         |       23 |        0 |    100% |           |
 | haystack/components/joiners/string\_joiner.py                                       |        8 |        0 |    100% |           |
 | haystack/components/preprocessors/\_\_init\_\_.py                                   |        5 |        0 |    100% |           |
@@ -151,13 +151,13 @@
 | haystack/components/retrievers/types/\_\_init\_\_.py                                |        2 |        0 |    100% |           |
 | haystack/components/retrievers/types/protocol.py                                    |        5 |        0 |    100% |           |
 | haystack/components/routers/\_\_init\_\_.py                                         |        5 |        0 |    100% |           |
-| haystack/components/routers/conditional\_router.py                                  |      159 |        8 |     95% |372-373, 409, 424, 466, 484, 494, 506 |
+| haystack/components/routers/conditional\_router.py                                  |      172 |        8 |     95% |458-459, 495, 513, 555, 573, 583, 595 |
 | haystack/components/routers/document\_length\_router.py                             |       15 |        0 |    100% |           |
 | haystack/components/routers/document\_type\_router.py                               |       46 |        0 |    100% |           |
 | haystack/components/routers/file\_type\_router.py                                   |       72 |        6 |     92% |   181-186 |
 | haystack/components/routers/llm\_messages\_router.py                                |       51 |        0 |    100% |           |
 | haystack/components/routers/metadata\_router.py                                     |       35 |        0 |    100% |           |
-| haystack/components/routers/text\_language\_router.py                               |       31 |        0 |    100% |           |
+| haystack/components/routers/text\_language\_router.py                               |       33 |        0 |    100% |           |
 | haystack/components/routers/transformers\_text\_router.py                           |       53 |        5 |     91% |121, 130-132, 146 |
 | haystack/components/routers/zero\_shot\_text\_router.py                             |       49 |        3 |     94% |   151-153 |
 | haystack/components/samplers/\_\_init\_\_.py                                        |        5 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17888** | **1221** | **93%** |           |
+| **TOTAL**                                                                           | **17914** | **1221** | **93%** |           |
 
 
 ## Setup coverage badge
