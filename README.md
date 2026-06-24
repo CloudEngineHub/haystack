@@ -97,7 +97,7 @@
 | haystack/components/generators/chat/hugging\_face\_local.py                         |      213 |       27 |     87% |72-74, 77, 85-87, 246, 289-291, 351, 382, 440, 469-474, 501, 554-557, 592-598, 614, 670-671 |
 | haystack/components/generators/chat/llm.py                                          |       33 |        1 |     97% |       120 |
 | haystack/components/generators/chat/openai.py                                       |      214 |        4 |     98% |431, 481, 652, 752 |
-| haystack/components/generators/chat/openai\_responses.py                            |      328 |       39 |     88% |237, 268, 358, 438, 453, 490, 497-504, 512, 553-562, 578-579, 584, 597-613, 622, 767, 809-810, 823, 875, 897, 916 |
+| haystack/components/generators/chat/openai\_responses.py                            |      334 |       41 |     88% |237, 268, 358, 438, 453, 490, 497-504, 512, 553-562, 578-579, 584, 594, 604-620, 629, 686, 783, 825-826, 839, 891, 913, 932 |
 | haystack/components/generators/chat/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
 | haystack/components/generators/chat/types/protocol.py                               |        4 |        0 |    100% |           |
 | haystack/components/generators/hugging\_face\_api.py                                |       88 |        3 |     97% |166-167, 265 |
@@ -106,7 +106,7 @@
 | haystack/components/generators/openai\_dalle.py                                     |       49 |        0 |    100% |           |
 | haystack/components/generators/utils.py                                             |       88 |        9 |     90% |41, 55, 101, 134-135, 167, 177, 179, 181 |
 | haystack/components/joiners/\_\_init\_\_.py                                         |        5 |        0 |    100% |           |
-| haystack/components/joiners/answer\_joiner.py                                       |       49 |        2 |     96% |  132, 138 |
+| haystack/components/joiners/answer\_joiner.py                                       |       49 |        1 |     98% |       140 |
 | haystack/components/joiners/branch.py                                               |       20 |        3 |     85% |105, 116-117 |
 | haystack/components/joiners/document\_joiner.py                                     |       97 |        0 |    100% |           |
 | haystack/components/joiners/list\_joiner.py                                         |       23 |        0 |    100% |           |
@@ -242,7 +242,7 @@
 | haystack/tracing/\_\_init\_\_.py                                                    |        2 |        0 |    100% |           |
 | haystack/tracing/datadog.py                                                         |       49 |        1 |     98% |       107 |
 | haystack/tracing/logging\_tracer.py                                                 |       33 |        0 |    100% |           |
-| haystack/tracing/opentelemetry.py                                                   |       36 |        1 |     97% |        72 |
+| haystack/tracing/opentelemetry.py                                                   |       38 |        1 |     97% |        84 |
 | haystack/tracing/tracer.py                                                          |       88 |        7 |     92% |33, 79, 99, 108, 223-226 |
 | haystack/tracing/utils.py                                                           |       26 |        0 |    100% |           |
 | haystack/utils/\_\_init\_\_.py                                                      |        5 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17966** | **1221** | **93%** |           |
+| **TOTAL**                                                                           | **17974** | **1222** | **93%** |           |
 
 
 ## Setup coverage badge
