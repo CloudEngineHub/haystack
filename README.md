@@ -131,7 +131,7 @@
 | haystack/components/rankers/llm\_ranker.py                                          |      107 |        3 |     97% |291, 300, 304 |
 | haystack/components/rankers/lost\_in\_the\_middle.py                                |       43 |        5 |     88% |57, 83, 87, 104, 117 |
 | haystack/components/rankers/meta\_field.py                                          |      118 |        0 |    100% |           |
-| haystack/components/rankers/meta\_field\_grouping\_ranker.py                        |       33 |        0 |    100% |           |
+| haystack/components/rankers/meta\_field\_grouping\_ranker.py                        |       34 |        0 |    100% |           |
 | haystack/components/rankers/sentence\_transformers\_diversity.py                    |      153 |        8 |     95% |254, 269, 400, 421, 433-436 |
 | haystack/components/rankers/sentence\_transformers\_similarity.py                   |       81 |        2 |     98% |  158, 261 |
 | haystack/components/rankers/transformers\_similarity.py                             |      109 |       10 |     91% |143, 148, 154, 175, 261, 272, 275, 296, 308-309 |
@@ -154,7 +154,7 @@
 | haystack/components/routers/conditional\_router.py                                  |      172 |        8 |     95% |458-459, 495, 513, 555, 573, 583, 595 |
 | haystack/components/routers/document\_length\_router.py                             |       15 |        0 |    100% |           |
 | haystack/components/routers/document\_type\_router.py                               |       46 |        0 |    100% |           |
-| haystack/components/routers/file\_type\_router.py                                   |       72 |        6 |     92% |   181-186 |
+| haystack/components/routers/file\_type\_router.py                                   |       72 |        6 |     92% |   182-187 |
 | haystack/components/routers/llm\_messages\_router.py                                |       51 |        0 |    100% |           |
 | haystack/components/routers/metadata\_router.py                                     |       35 |        0 |    100% |           |
 | haystack/components/routers/text\_language\_router.py                               |       33 |        0 |    100% |           |
@@ -258,7 +258,7 @@
 | haystack/utils/filters.py                                                           |      114 |        4 |     96% |19-21, 108 |
 | haystack/utils/hf.py                                                                |      198 |       25 |     87% |99, 233-254, 358, 363-366, 416-419 |
 | haystack/utils/http\_client.py                                                      |       14 |        0 |    100% |           |
-| haystack/utils/jinja2\_chat\_extension.py                                           |      119 |        1 |     99% |       294 |
+| haystack/utils/jinja2\_chat\_extension.py                                           |      129 |        1 |     99% |       315 |
 | haystack/utils/jinja2\_extensions.py                                                |       47 |        0 |    100% |           |
 | haystack/utils/jupyter.py                                                           |        9 |        3 |     67% |     15-17 |
 | haystack/utils/misc.py                                                              |       96 |        5 |     95% |52-53, 129-132 |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **17974** | **1222** | **93%** |           |
+| **TOTAL**                                                                           | **17985** | **1222** | **93%** |           |
 
 
 ## Setup coverage badge
