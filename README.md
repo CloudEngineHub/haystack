@@ -36,7 +36,7 @@
 | haystack/components/converters/image/document\_to\_image.py                         |       43 |        0 |    100% |           |
 | haystack/components/converters/image/file\_to\_document.py                          |       27 |        1 |     96% |        93 |
 | haystack/components/converters/image/file\_to\_image.py                             |       53 |        0 |    100% |           |
-| haystack/components/converters/image/image\_utils.py                                |      123 |        5 |     96% |78-82, 104, 109-110 |
+| haystack/components/converters/image/image\_utils.py                                |      128 |        5 |     96% |78-82, 104, 109-110 |
 | haystack/components/converters/image/pdf\_to\_image.py                              |       46 |        3 |     93% |   137-141 |
 | haystack/components/converters/json.py                                              |       87 |       11 |     87% |220-221, 223-226, 230-231, 243-244, 275-277 |
 | haystack/components/converters/markdown.py                                          |       69 |       10 |     86% |102, 115-117, 122-128, 146, 167-172 |
@@ -192,7 +192,7 @@
 | haystack/core/super\_component/utils.py                                             |       95 |        4 |     96% |77, 112, 124, 181 |
 | haystack/core/type\_utils.py                                                        |      153 |        5 |     97% |51, 58, 121, 157, 249 |
 | haystack/dataclasses/\_\_init\_\_.py                                                |        5 |        0 |    100% |           |
-| haystack/dataclasses/answer.py                                                      |       59 |        0 |    100% |           |
+| haystack/dataclasses/answer.py                                                      |       57 |        0 |    100% |           |
 | haystack/dataclasses/breakpoints.py                                                 |       72 |        3 |     96% | 61-62, 91 |
 | haystack/dataclasses/byte\_stream.py                                                |       39 |        0 |    100% |           |
 | haystack/dataclasses/chat\_message.py                                               |      330 |        4 |     99% |140, 367, 383, 605 |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                               |      112 |       12 |     89% |62, 64, 178-179, 190-193, 199, 215-218 |
 | haystack/utils/url\_validation.py                                                   |        4 |        0 |    100% |           |
 | haystack/version.py                                                                 |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                           | **18002** | **1221** | **93%** |           |
+| **TOTAL**                                                                           | **18005** | **1221** | **93%** |           |
 
 
 ## Setup coverage badge
