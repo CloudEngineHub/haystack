@@ -103,9 +103,9 @@
 | haystack/components/query/query\_expander.py                              |      126 |       10 |     92% |270-271, 275, 284-285, 292-298, 309-312 |
 | haystack/components/rankers/\_\_init\_\_.py                               |        5 |        0 |    100% |           |
 | haystack/components/rankers/llm\_ranker.py                                |      147 |       12 |     92% |310, 313, 320-321, 342-349, 371, 380, 384 |
-| haystack/components/rankers/lost\_in\_the\_middle.py                      |       43 |        5 |     88% |57, 83, 87, 104, 117 |
+| haystack/components/rankers/lost\_in\_the\_middle.py                      |       43 |        4 |     91% |57, 83, 87, 117 |
 | haystack/components/rankers/meta\_field.py                                |      118 |        0 |    100% |           |
-| haystack/components/rankers/meta\_field\_grouping\_ranker.py              |       34 |        0 |    100% |           |
+| haystack/components/rankers/meta\_field\_grouping\_ranker.py              |       38 |        0 |    100% |           |
 | haystack/components/retrievers/\_\_init\_\_.py                            |        5 |        0 |    100% |           |
 | haystack/components/retrievers/auto\_merging\_retriever.py                |       80 |        0 |    100% |           |
 | haystack/components/retrievers/filter\_retriever.py                       |       22 |        1 |     95% |        55 |
@@ -157,7 +157,7 @@
 | haystack/dataclasses/breakpoints.py                                       |       37 |        0 |    100% |           |
 | haystack/dataclasses/byte\_stream.py                                      |       39 |        0 |    100% |           |
 | haystack/dataclasses/chat\_message.py                                     |      330 |        4 |     99% |140, 369, 385, 607 |
-| haystack/dataclasses/document.py                                          |       92 |        6 |     93% |34, 38, 82, 84, 86, 88 |
+| haystack/dataclasses/document.py                                          |       91 |        4 |     96% |79, 81, 83, 85 |
 | haystack/dataclasses/file\_content.py                                     |       68 |        0 |    100% |           |
 | haystack/dataclasses/image\_content.py                                    |       85 |        2 |     98% |   100-104 |
 | haystack/dataclasses/skill\_info.py                                       |        3 |        0 |    100% |           |
@@ -246,7 +246,7 @@
 | haystack/utils/type\_serialization.py                                     |      121 |        6 |     95% |65, 67, 187-188, 196, 218 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **15799** |  **847** | **95%** |           |
+| **TOTAL**                                                                 | **15802** |  **844** | **95%** |           |
 
 
 ## Setup coverage badge
