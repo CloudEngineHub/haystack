@@ -39,7 +39,7 @@
 | haystack/components/converters/pptx.py                                    |       69 |        2 |     97% |     89-90 |
 | haystack/components/converters/pypdf.py                                   |       74 |        3 |     96% |   209-213 |
 | haystack/components/converters/txt.py                                     |       34 |        3 |     91% |     87-91 |
-| haystack/components/converters/utils.py                                   |       21 |        0 |    100% |           |
+| haystack/components/converters/utils.py                                   |       22 |        0 |    100% |           |
 | haystack/components/converters/xlsx.py                                    |      113 |        3 |     97% |83, 183, 185 |
 | haystack/components/embedders/\_\_init\_\_.py                             |        5 |        0 |    100% |           |
 | haystack/components/embedders/azure\_document\_embedder.py                |       67 |        2 |     97% |  121, 124 |
@@ -145,7 +145,7 @@
 | haystack/core/pipeline/component\_checks.py                               |       66 |        0 |    100% |           |
 | haystack/core/pipeline/descriptions.py                                    |        6 |        0 |    100% |           |
 | haystack/core/pipeline/draw.py                                            |      199 |       41 |     79% |35-58, 142, 145, 148, 150, 158, 162-169, 293, 303, 375-377, 382, 390-391, 419-424 |
-| haystack/core/pipeline/pipeline.py                                        |      322 |       21 |     93% |172, 179, 422, 565, 588, 756, 946-950, 954, 971-975, 979-991, 1032-1041, 1066 |
+| haystack/core/pipeline/pipeline.py                                        |      322 |       19 |     94% |172, 179, 422, 565, 588, 756, 949, 954, 971-975, 979-991, 1032-1041, 1066 |
 | haystack/core/pipeline/utils.py                                           |       71 |        1 |     99% |       206 |
 | haystack/core/serialization.py                                            |      127 |        6 |     95% |75, 99, 246, 333, 349-350 |
 | haystack/core/serialization\_security.py                                  |       85 |        2 |     98% |  206, 276 |
@@ -158,7 +158,7 @@
 | haystack/dataclasses/breakpoints.py                                       |       39 |        0 |    100% |           |
 | haystack/dataclasses/byte\_stream.py                                      |       39 |        0 |    100% |           |
 | haystack/dataclasses/chat\_message.py                                     |      341 |        4 |     99% |140, 381, 397, 619 |
-| haystack/dataclasses/document.py                                          |       94 |        4 |     96% |79, 81, 83, 85 |
+| haystack/dataclasses/document.py                                          |      104 |        4 |     96% |79, 81, 83, 85 |
 | haystack/dataclasses/file\_content.py                                     |       68 |        0 |    100% |           |
 | haystack/dataclasses/image\_content.py                                    |       85 |        2 |     98% |   100-104 |
 | haystack/dataclasses/skill\_info.py                                       |        3 |        0 |    100% |           |
@@ -177,6 +177,12 @@
 | haystack/evaluation/\_\_init\_\_.py                                       |        5 |        0 |    100% |           |
 | haystack/evaluation/eval\_run\_result.py                                  |       93 |       35 |     62% |72-97, 111-120, 189, 192, 195, 200, 211, 215 |
 | haystack/hooks/\_\_init\_\_.py                                            |        5 |        0 |    100% |           |
+| haystack/hooks/compaction/\_\_init\_\_.py                                 |        5 |        0 |    100% |           |
+| haystack/hooks/compaction/hooks.py                                        |       91 |        5 |     95% |228, 235, 240, 252-253 |
+| haystack/hooks/compaction/sliding\_window.py                              |       79 |        0 |    100% |           |
+| haystack/hooks/compaction/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
+| haystack/hooks/compaction/types/protocol.py                               |       12 |        0 |    100% |           |
+| haystack/hooks/compaction/utils.py                                        |       14 |        0 |    100% |           |
 | haystack/hooks/from\_function.py                                          |       45 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/dataclasses.py                        |       16 |        0 |    100% |           |
@@ -254,7 +260,7 @@
 | haystack/utils/type\_serialization.py                                     |      135 |        6 |     96% |97, 99, 243-244, 252, 268 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16170** |  **789** | **95%** |           |
+| **TOTAL**                                                                 | **16384** |  **792** | **95%** |           |
 
 
 ## Setup coverage badge
