@@ -7,12 +7,12 @@
 | haystack/\_\_init\_\_.py                                                  |       11 |        0 |    100% |           |
 | haystack/components/\_\_init\_\_.py                                       |        0 |        0 |    100% |           |
 | haystack/components/agents/\_\_init\_\_.py                                |        5 |        0 |    100% |           |
-| haystack/components/agents/agent.py                                       |      455 |        5 |     99% |152, 220, 236, 360, 936 |
+| haystack/components/agents/agent.py                                       |      365 |        3 |     99% |159, 175, 744 |
 | haystack/components/agents/state/\_\_init\_\_.py                          |        5 |        0 |    100% |           |
 | haystack/components/agents/state/state.py                                 |       74 |        2 |     97% |    76, 80 |
 | haystack/components/agents/state/state\_utils.py                          |       18 |        0 |    100% |           |
 | haystack/components/agents/tool\_calling.py                               |      248 |        5 |     98% |30, 247-249, 618 |
-| haystack/components/agents/utils.py                                       |       23 |        0 |    100% |           |
+| haystack/components/agents/utils.py                                       |      115 |        2 |     98% |   80, 276 |
 | haystack/components/builders/\_\_init\_\_.py                              |        5 |        0 |    100% |           |
 | haystack/components/builders/answer\_builder.py                           |       98 |        3 |     97% |270, 291, 303 |
 | haystack/components/builders/chat\_prompt\_builder.py                     |      110 |        2 |     98% |  179, 266 |
@@ -82,9 +82,9 @@
 | haystack/components/generators/openai\_image\_generator.py                |       78 |        0 |    100% |           |
 | haystack/components/generators/utils.py                                   |       93 |        9 |     90% |69, 83, 129, 162-163, 195, 211, 213, 215 |
 | haystack/components/joiners/\_\_init\_\_.py                               |        5 |        0 |    100% |           |
-| haystack/components/joiners/answer\_joiner.py                             |       49 |        1 |     98% |       140 |
+| haystack/components/joiners/answer\_joiner.py                             |       54 |        1 |     98% |       152 |
 | haystack/components/joiners/branch.py                                     |       20 |        3 |     85% |105, 116-117 |
-| haystack/components/joiners/document\_joiner.py                           |       97 |        0 |    100% |           |
+| haystack/components/joiners/document\_joiner.py                           |      101 |        0 |    100% |           |
 | haystack/components/joiners/list\_joiner.py                               |       23 |        0 |    100% |           |
 | haystack/components/joiners/string\_joiner.py                             |        8 |        0 |    100% |           |
 | haystack/components/preprocessors/\_\_init\_\_.py                         |        5 |        0 |    100% |           |
@@ -179,10 +179,11 @@
 | haystack/hooks/\_\_init\_\_.py                                            |        5 |        0 |    100% |           |
 | haystack/hooks/compaction/\_\_init\_\_.py                                 |        5 |        0 |    100% |           |
 | haystack/hooks/compaction/hooks.py                                        |       91 |        5 |     95% |228, 235, 240, 252-253 |
-| haystack/hooks/compaction/sliding\_window.py                              |       79 |        0 |    100% |           |
+| haystack/hooks/compaction/sliding\_window.py                              |       66 |        0 |    100% |           |
+| haystack/hooks/compaction/tool\_result\_pruning.py                        |       55 |        0 |    100% |           |
 | haystack/hooks/compaction/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
 | haystack/hooks/compaction/types/protocol.py                               |       12 |        0 |    100% |           |
-| haystack/hooks/compaction/utils.py                                        |       14 |        0 |    100% |           |
+| haystack/hooks/compaction/utils.py                                        |       27 |        0 |    100% |           |
 | haystack/hooks/from\_function.py                                          |       45 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/dataclasses.py                        |       16 |        0 |    100% |           |
@@ -225,7 +226,7 @@
 | haystack/tools/agent\_tool.py                                             |       46 |        0 |    100% |           |
 | haystack/tools/component\_tool.py                                         |      100 |        5 |     95% |367-368, 411-413 |
 | haystack/tools/errors.py                                                  |        6 |        0 |    100% |           |
-| haystack/tools/from\_function.py                                          |       57 |        0 |    100% |           |
+| haystack/tools/from\_function.py                                          |       61 |        0 |    100% |           |
 | haystack/tools/parameters\_schema\_utils.py                               |       97 |        3 |     97% |95, 135-136 |
 | haystack/tools/pipeline\_tool.py                                          |       30 |        2 |     93% |  240, 243 |
 | haystack/tools/searchable\_toolset.py                                     |      120 |        2 |     98% |  191, 214 |
@@ -261,7 +262,7 @@
 | haystack/utils/type\_serialization.py                                     |      135 |        6 |     96% |97, 99, 243-244, 252, 268 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16478** |  **788** | **95%** |           |
+| **TOTAL**                                                                 | **16548** |  **788** | **95%** |           |
 
 
 ## Setup coverage badge
