@@ -21,7 +21,7 @@
 | haystack/components/caching/cache\_checker.py                             |       43 |        0 |    100% |           |
 | haystack/components/converters/\_\_init\_\_.py                            |        5 |        0 |    100% |           |
 | haystack/components/converters/csv.py                                     |       88 |        4 |     95% |161-162, 189-190 |
-| haystack/components/converters/docx.py                                    |      159 |        1 |     99% |       262 |
+| haystack/components/converters/docx.py                                    |      146 |        1 |     99% |       240 |
 | haystack/components/converters/file\_to\_file\_content.py                 |       32 |        0 |    100% |           |
 | haystack/components/converters/html.py                                    |       50 |        0 |    100% |           |
 | haystack/components/converters/image/\_\_init\_\_.py                      |        5 |        0 |    100% |           |
@@ -35,11 +35,11 @@
 | haystack/components/converters/msg.py                                     |       77 |        5 |     94% |91, 165-167, 179 |
 | haystack/components/converters/multi\_file\_converter.py                  |       50 |        0 |    100% |           |
 | haystack/components/converters/output\_adapter.py                         |       65 |        1 |     98% |       129 |
-| haystack/components/converters/pdfminer.py                                |       68 |        0 |    100% |           |
+| haystack/components/converters/pdfminer.py                                |      105 |        0 |    100% |           |
 | haystack/components/converters/pptx.py                                    |       69 |        2 |     97% |     89-90 |
-| haystack/components/converters/pypdf.py                                   |       74 |        3 |     96% |   209-213 |
+| haystack/components/converters/pypdf.py                                   |      103 |        6 |     94% |192, 209-211, 267-271 |
 | haystack/components/converters/txt.py                                     |       34 |        3 |     91% |     87-91 |
-| haystack/components/converters/utils.py                                   |       22 |        0 |    100% |           |
+| haystack/components/converters/utils.py                                   |       37 |        0 |    100% |           |
 | haystack/components/converters/xlsx.py                                    |      113 |        3 |     97% |83, 183, 185 |
 | haystack/components/embedders/\_\_init\_\_.py                             |        5 |        0 |    100% |           |
 | haystack/components/embedders/azure\_document\_embedder.py                |       67 |        2 |     97% |  121, 124 |
@@ -54,7 +54,7 @@
 | haystack/components/evaluators/\_\_init\_\_.py                            |        5 |        0 |    100% |           |
 | haystack/components/evaluators/answer\_exact\_match.py                    |       15 |        0 |    100% |           |
 | haystack/components/evaluators/context\_relevance.py                      |       50 |        0 |    100% |           |
-| haystack/components/evaluators/document\_map.py                           |       46 |        4 |     91% |73, 76-80, 126 |
+| haystack/components/evaluators/document\_map.py                           |       52 |        4 |     92% |73, 76-80, 134 |
 | haystack/components/evaluators/document\_mrr.py                           |       42 |        4 |     90% |71, 74-78, 122 |
 | haystack/components/evaluators/document\_ndcg.py                          |       70 |        0 |    100% |           |
 | haystack/components/evaluators/document\_recall.py                        |       73 |        2 |     97% |   109-113 |
@@ -74,7 +74,7 @@
 | haystack/components/generators/chat/azure\_responses.py                   |       46 |        2 |     96% |  224, 271 |
 | haystack/components/generators/chat/fallback.py                           |       98 |        3 |     97% |   252-257 |
 | haystack/components/generators/chat/llm.py                                |       40 |        1 |     98% |       124 |
-| haystack/components/generators/chat/mock.py                               |      144 |        0 |    100% |           |
+| haystack/components/generators/chat/mock.py                               |      154 |        0 |    100% |           |
 | haystack/components/generators/chat/openai.py                             |      230 |        4 |     98% |458, 509, 680, 780 |
 | haystack/components/generators/chat/openai\_responses.py                  |      358 |       34 |     91% |278, 309, 398, 478, 494, 531, 556, 609-618, 634-635, 640, 650, 660-676, 685, 742, 839, 881-882, 895, 947, 969, 988 |
 | haystack/components/generators/chat/types/\_\_init\_\_.py                 |        2 |        0 |    100% |           |
@@ -259,10 +259,10 @@
 | haystack/utils/jupyter.py                                                 |        9 |        3 |     67% |     15-17 |
 | haystack/utils/misc.py                                                    |       96 |        5 |     95% |52-53, 129-132 |
 | haystack/utils/requests\_utils.py                                         |       33 |        0 |    100% |           |
-| haystack/utils/type\_serialization.py                                     |      135 |        6 |     96% |97, 99, 243-244, 252, 268 |
+| haystack/utils/type\_serialization.py                                     |      140 |        6 |     96% |103, 105, 256-257, 265, 281 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16566** |  **785** | **95%** |           |
+| **TOTAL**                                                                 | **16655** |  **788** | **95%** |           |
 
 
 ## Setup coverage badge
