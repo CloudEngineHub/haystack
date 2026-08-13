@@ -7,7 +7,7 @@
 | haystack/\_\_init\_\_.py                                                  |       11 |        0 |    100% |           |
 | haystack/components/\_\_init\_\_.py                                       |        0 |        0 |    100% |           |
 | haystack/components/agents/\_\_init\_\_.py                                |        5 |        0 |    100% |           |
-| haystack/components/agents/agent.py                                       |      358 |        3 |     99% |158, 174, 735 |
+| haystack/components/agents/agent.py                                       |      353 |        3 |     99% |158, 174, 732 |
 | haystack/components/agents/state/\_\_init\_\_.py                          |        5 |        0 |    100% |           |
 | haystack/components/agents/state/state.py                                 |       74 |        2 |     97% |    76, 80 |
 | haystack/components/agents/state/state\_utils.py                          |       18 |        0 |    100% |           |
@@ -178,12 +178,12 @@
 | haystack/evaluation/eval\_run\_result.py                                  |       93 |       35 |     62% |72-97, 111-120, 189, 192, 195, 200, 211, 215 |
 | haystack/hooks/\_\_init\_\_.py                                            |        5 |        0 |    100% |           |
 | haystack/hooks/compaction/\_\_init\_\_.py                                 |        5 |        0 |    100% |           |
-| haystack/hooks/compaction/hooks.py                                        |       91 |        5 |     95% |228, 235, 240, 252-253 |
-| haystack/hooks/compaction/sliding\_window.py                              |       91 |        0 |    100% |           |
+| haystack/hooks/compaction/hooks.py                                        |      101 |        5 |     95% |257, 264, 269, 281-282 |
+| haystack/hooks/compaction/sliding\_window.py                              |       67 |        0 |    100% |           |
 | haystack/hooks/compaction/tool\_result\_pruning.py                        |       55 |        0 |    100% |           |
 | haystack/hooks/compaction/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
 | haystack/hooks/compaction/types/protocol.py                               |       12 |        0 |    100% |           |
-| haystack/hooks/compaction/utils.py                                        |       27 |        0 |    100% |           |
+| haystack/hooks/compaction/utils.py                                        |       56 |        0 |    100% |           |
 | haystack/hooks/from\_function.py                                          |       45 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/dataclasses.py                        |       16 |        0 |    100% |           |
@@ -193,7 +193,7 @@
 | haystack/hooks/human\_in\_the\_loop/types/\_\_init\_\_.py                 |        2 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/types/protocol.py                     |       25 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/user\_interfaces.py                   |       96 |        2 |     98% |   65, 103 |
-| haystack/hooks/invocation.py                                              |        9 |        0 |    100% |           |
+| haystack/hooks/invocation.py                                              |       40 |        0 |    100% |           |
 | haystack/hooks/protocol.py                                                |       15 |        0 |    100% |           |
 | haystack/hooks/tool\_result\_offloading/\_\_init\_\_.py                   |        5 |        0 |    100% |           |
 | haystack/hooks/tool\_result\_offloading/hooks.py                          |       95 |        1 |     99% |       222 |
@@ -263,7 +263,7 @@
 | haystack/utils/type\_serialization.py                                     |      140 |        6 |     96% |103, 105, 256-257, 265, 281 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16692** |  **785** | **95%** |           |
+| **TOTAL**                                                                 | **16733** |  **785** | **95%** |           |
 
 
 ## Setup coverage badge
