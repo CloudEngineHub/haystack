@@ -91,8 +91,8 @@
 | haystack/components/preprocessors/csv\_document\_cleaner.py               |       64 |        0 |    100% |           |
 | haystack/components/preprocessors/csv\_document\_splitter.py              |      108 |        4 |     96% |128, 131, 142-146 |
 | haystack/components/preprocessors/document\_cleaner.py                    |      125 |        1 |     99% |       107 |
-| haystack/components/preprocessors/document\_preprocessor.py               |       46 |        2 |     96% |  162, 197 |
-| haystack/components/preprocessors/document\_splitter.py                   |      226 |        0 |    100% |           |
+| haystack/components/preprocessors/document\_preprocessor.py               |       47 |        2 |     96% |  168, 204 |
+| haystack/components/preprocessors/document\_splitter.py                   |      271 |        2 |     99% |  210, 236 |
 | haystack/components/preprocessors/embedding\_based\_document\_splitter.py |      229 |       12 |     95% |297-298, 429, 481-493, 511, 528, 598-599 |
 | haystack/components/preprocessors/hierarchical\_document\_splitter.py     |       60 |        0 |    100% |           |
 | haystack/components/preprocessors/markdown\_header\_splitter.py           |      167 |        6 |     96% |235-236, 249, 297, 325, 381 |
@@ -180,13 +180,13 @@
 | haystack/hooks/budget/\_\_init\_\_.py                                     |        5 |        0 |    100% |           |
 | haystack/hooks/budget/hooks.py                                            |       32 |        0 |    100% |           |
 | haystack/hooks/compaction/\_\_init\_\_.py                                 |        5 |        0 |    100% |           |
-| haystack/hooks/compaction/hooks.py                                        |      101 |        5 |     95% |258, 265, 270, 282-283 |
+| haystack/hooks/compaction/hooks.py                                        |      111 |        5 |     95% |285, 292, 297, 309-310 |
 | haystack/hooks/compaction/sliding\_window.py                              |       67 |        0 |    100% |           |
 | haystack/hooks/compaction/summarization.py                                |      171 |       16 |     91% |89, 314-317, 475-479, 483-484, 488-492 |
 | haystack/hooks/compaction/tool\_result\_pruning.py                        |       55 |        0 |    100% |           |
 | haystack/hooks/compaction/types/\_\_init\_\_.py                           |        2 |        0 |    100% |           |
 | haystack/hooks/compaction/types/protocol.py                               |       12 |        0 |    100% |           |
-| haystack/hooks/compaction/utils.py                                        |       56 |        0 |    100% |           |
+| haystack/hooks/compaction/utils.py                                        |       49 |        0 |    100% |           |
 | haystack/hooks/from\_function.py                                          |       45 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/dataclasses.py                        |       16 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                     |      144 |        6 |     96% |106, 108, 260-261, 269, 285 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **17159** |  **771** | **96%** |           |
+| **TOTAL**                                                                 | **17208** |  **773** | **96%** |           |
 
 
 ## Setup coverage badge
