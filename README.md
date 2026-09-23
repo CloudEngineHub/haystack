@@ -101,9 +101,9 @@
 | haystack/components/preprocessors/sentence\_tokenizer.py                  |       83 |        5 |     94% |62-63, 70-75, 215 |
 | haystack/components/preprocessors/text\_cleaner.py                        |       31 |        0 |    100% |           |
 | haystack/components/query/\_\_init\_\_.py                                 |        5 |        0 |    100% |           |
-| haystack/components/query/query\_expander.py                              |      137 |       10 |     93% |274-275, 279, 289-290, 297-303, 314-317 |
+| haystack/components/query/query\_expander.py                              |      137 |       10 |     93% |272-273, 279, 289-290, 297-303, 314-317 |
 | haystack/components/rankers/\_\_init\_\_.py                               |        5 |        0 |    100% |           |
-| haystack/components/rankers/llm\_ranker.py                                |      154 |        7 |     95% |317, 324-325, 349, 376, 385, 389 |
+| haystack/components/rankers/llm\_ranker.py                                |      154 |        5 |     97% |317, 349, 376, 385, 389 |
 | haystack/components/rankers/lost\_in\_the\_middle.py                      |       43 |        2 |     95% |   83, 117 |
 | haystack/components/rankers/meta\_field.py                                |      117 |        0 |    100% |           |
 | haystack/components/rankers/meta\_field\_grouping\_ranker.py              |       38 |        0 |    100% |           |
@@ -152,7 +152,7 @@
 | haystack/core/super\_component/\_\_init\_\_.py                            |        2 |        0 |    100% |           |
 | haystack/core/super\_component/super\_component.py                        |      195 |        7 |     96% |67, 199, 212, 250, 304, 346, 599 |
 | haystack/core/super\_component/utils.py                                   |       95 |        4 |     96% |77, 112, 124, 181 |
-| haystack/core/type\_utils.py                                              |      170 |        6 |     96% |94, 96, 101, 166, 208, 300 |
+| haystack/core/type\_utils.py                                              |      170 |        6 |     96% |95, 97, 102, 167, 209, 301 |
 | haystack/dataclasses/\_\_init\_\_.py                                      |        5 |        0 |    100% |           |
 | haystack/dataclasses/answer.py                                            |       57 |        0 |    100% |           |
 | haystack/dataclasses/breakpoints.py                                       |       39 |        0 |    100% |           |
@@ -206,13 +206,13 @@
 | haystack/hooks/tool\_result\_offloading/types/protocol.py                 |       19 |        2 |     89% |    56, 61 |
 | haystack/hooks/utils.py                                                   |       47 |        0 |    100% |           |
 | haystack/lazy\_imports.py                                                 |       13 |        0 |    100% |           |
-| haystack/logging.py                                                       |      129 |        4 |     97% |247-248, 358-360 |
+| haystack/logging.py                                                       |      142 |        4 |     97% |251-252, 383-385 |
 | haystack/marshal/\_\_init\_\_.py                                          |        5 |        0 |    100% |           |
 | haystack/marshal/protocol.py                                              |        4 |        0 |    100% |           |
 | haystack/marshal/yaml.py                                                  |       21 |        1 |     95% |        42 |
 | haystack/skill\_stores/\_\_init\_\_.py                                    |        0 |        0 |    100% |           |
 | haystack/skill\_stores/file\_system/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
-| haystack/skill\_stores/file\_system/skill\_store.py                       |       95 |        1 |     99% |       119 |
+| haystack/skill\_stores/file\_system/skill\_store.py                       |      105 |        2 |     98% |  102, 136 |
 | haystack/skill\_stores/types/\_\_init\_\_.py                              |        2 |        0 |    100% |           |
 | haystack/skill\_stores/types/protocol.py                                  |       11 |        0 |    100% |           |
 | haystack/telemetry/\_\_init\_\_.py                                        |        1 |        0 |    100% |           |
@@ -229,7 +229,7 @@
 | haystack/tools/agent\_tool.py                                             |       51 |        0 |    100% |           |
 | haystack/tools/component\_tool.py                                         |      100 |        5 |     95% |367-368, 411-413 |
 | haystack/tools/errors.py                                                  |        6 |        0 |    100% |           |
-| haystack/tools/from\_function.py                                          |       61 |        0 |    100% |           |
+| haystack/tools/from\_function.py                                          |       64 |        0 |    100% |           |
 | haystack/tools/parameters\_schema\_utils.py                               |       97 |        3 |     97% |95, 135-136 |
 | haystack/tools/pipeline\_tool.py                                          |       30 |        2 |     93% |  240, 243 |
 | haystack/tools/searchable\_toolset.py                                     |      110 |        0 |    100% |           |
@@ -266,7 +266,7 @@
 | haystack/utils/type\_serialization.py                                     |      144 |        6 |     96% |106, 108, 260-261, 269, 285 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **17253** |  **750** | **96%** |           |
+| **TOTAL**                                                                 | **17279** |  **749** | **96%** |           |
 
 
 ## Setup coverage badge
